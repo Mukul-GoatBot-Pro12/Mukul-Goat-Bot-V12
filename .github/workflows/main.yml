@@ -1,3 +1,4 @@
+
 name: 🤖 MUKUL BOT
 
 on:
@@ -18,10 +19,10 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 20
-          cache: npm
 
       - name: 📦 Install Dependencies
         run: npm install
 
-      - name: 🚀 Start Bot
+      - name: 🚀 Start Goat Bot V2
         run: node index.js
+        
